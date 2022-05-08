@@ -9,13 +9,17 @@
 </head>
 <body style="font-family:'Courier New';">
 <code>
-<div id="Header" style="display:block;position:relative;text-align:left;width:100%;height:45px;z-index:7777;">
-<div id="diskt" style="position:absolute;left:100px;top:5px;width:250px;height:36px;z-index:0;">
-<span style="color:#F0FF0F;font-size:32px;"><strong>Disk control</strong></span>
-</div></div>
+<div id="Header" style="display:block;position:relative;text-align:left;width:100%;height:100px;z-index:7777;">
+	<div id="rotw" style="position:absolute;left:250px;top:0px;width:250px;height:35px;z-index:0;">
+		<img src="rotw.png" alt="rotw" width="100" height="95">
+	</div>
+		<div id="diskt" style="position:absolute;left:100px;top:20px;width:250px;height:35px;z-index:0;">
+			<span style="color:#F0FF0F;font-size:50px;"><strong>Disk</strong></span>
+		</div>
+</div>
 <div style="font-size:15px;padding-left: 100px;">
 <ol>
-    <li><a href="https://github.com/volkovtree/disk/releases/download/instruction/pin319.7z" title="Pin Tree 319"> Pin Tree 319 (instruction simulation)... </a></li>
+    <li><a href="https://github.com/volkovtree/disk/releases/download/instruction/pin319.7z" title="Pin Tool 319"> Pin Tool 319 (instruction simulation)... </a></li>
     <li><a href="#" title="">XY Hexadecimal...</a></li>
     <li><a href="#" title="">XY Foreigns...</a></li>
     <li><a href="#" title="">QMGA</a></li>
@@ -72,7 +76,7 @@ input:focus, textarea:focus, select:focus
 }
 #Header
 {
-   background-image: linear-gradient(to right, #5252BD 0%, #AAAAD8 100%);
+   background-image: linear-gradient(to right, #5252BD 0%, #AAAAD8 10%);
    border-radius: 0px;
    box-sizing: border-box;
    margin: 0;
@@ -91,6 +95,7 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+
 <!-- disk -->
 h1, .h1
 {
